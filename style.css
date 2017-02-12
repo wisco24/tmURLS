@@ -1,0 +1,59 @@
+body {
+    background-color: #222d3f;
+    background-image: url("shield.png"), url("shield.png");
+#    background-image: url("sko.png");
+    background-size: 375px 343px;
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+    background-attachment: fixed;
+    color: white;
+
+}
+input[type=submit] {
+    background-color: #424D57;
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 200px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+input:hover {
+    background-color: #f44336;
+    color: white;
+}
+form, table {
+     display:inline;
+     margin:0px;
+     padding:0px;
+}
+h1 {
+    font-size: 25px;
+}
+h2 {
+    font-size: 20px;
+}
+h3 {
+    font-size: 15px;
+}
+div.relative {
+    position: relative;
+    left: 9px;
+} 
+div.relative1 {
+    position: relative;
+    left: 6px;
+}
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
